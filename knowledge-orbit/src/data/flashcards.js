@@ -11,5 +11,9 @@ export const flashcards = {
   "linguagem-programacao": [
     { q: "O que é uma lista em Python?", a: "Uma estrutura de dados mutável e ordenada." },
     { q: "O que faz o método 'append'?", a: "Adiciona um item ao final de uma lista." }
+  ],
+  "logica-matematica": [
+    { q: "O que é uma proposição?", a: "Uma oração declarativa que pode ser classificada como verdadeira ou falsa." },
+    { q: "O que é uma Tabela Verdade?", a: "Um dispositivo usado para determinar o valor lógico de uma proposição composta." }
   ]
 };
