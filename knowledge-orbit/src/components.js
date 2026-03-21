@@ -5,7 +5,7 @@ export function createTopicCard(topic) {
 
   const badge = document.createElement('span');
   badge.className = 'semester-badge';
-  badge.textContent = `${topic.semester}º Semestre`;
+  badge.textContent = topic.module;
 
   const title = document.createElement('h3');
   title.className = 'topic-title';
@@ -40,7 +40,12 @@ export function createResourceItem(resource, basePath) {
 
   const icon = document.createElement('div');
   icon.className = 'resource-icon';
-  icon.textContent = resource.type === 'pdf' ? 'PDF' : 'IMG';
+  const typeIcons = {
+    'pdf': 'PDF',
+    'image': 'IMG',
+    'audio': 'AUD'
+  };
+  icon.textContent = typeIcons[resource.type] || 'RES';
 
   const name = document.createElement('span');
   name.textContent = resource.name;
