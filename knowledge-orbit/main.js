@@ -1,6 +1,19 @@
 import './style.css'
 import { topics } from './src/data/topics.js'
 import { createTopicCard, createResourceItem } from './src/components.js'
+import { logger } from './src/utils/logger.js'
+
+// Global Error Handling
+window.onerror = (message, source, lineno, colno, error) => {
+  logger.error('Global Error Captured:', { message, source, lineno, colno, error });
+  return false;
+};
+
+window.onunhandledrejection = (event) => {
+  logger.error('Unhandled Promise Rejection:', event.reason);
+};
+
+logger.info('KnowledgeOrbit initialized');
 
 const app = document.querySelector('#app')
 
