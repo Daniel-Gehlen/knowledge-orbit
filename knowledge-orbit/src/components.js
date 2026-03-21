@@ -11,9 +11,11 @@ export function createTopicCard(topic) {
   title.className = 'topic-title';
   title.textContent = topic.title;
 
-  const resources = document.createElement('p');
-  resources.className = 'resource-count';
-  resources.textContent = `${topic.resources.length} materiais de estudo`;
+  const subtitle = document.createElement('p');
+  subtitle.className = 'topic-subtitle';
+  subtitle.textContent = "Conceitos Técnico-Simplificados";
+  subtitle.style.fontSize = "0.85rem";
+  subtitle.style.color = "var(--text-secondary)";
 
   const practiceBtn = document.createElement('button');
   practiceBtn.className = 'practice-btn';
@@ -26,32 +28,8 @@ export function createTopicCard(topic) {
 
   card.appendChild(badge);
   card.appendChild(title);
-  card.appendChild(resources);
+  card.appendChild(subtitle);
   card.appendChild(practiceBtn);
 
   return card;
-}
-
-export function createResourceItem(resource, basePath) {
-  const link = document.createElement('a');
-  link.className = 'resource-item';
-  link.href = `/content/${basePath}/${resource.file}`;
-  link.target = '_blank';
-
-  const icon = document.createElement('div');
-  icon.className = 'resource-icon';
-  const typeIcons = {
-    'pdf': 'PDF',
-    'image': 'IMG',
-    'audio': 'AUD'
-  };
-  icon.textContent = typeIcons[resource.type] || 'RES';
-
-  const name = document.createElement('span');
-  name.textContent = resource.name;
-
-  link.appendChild(icon);
-  link.appendChild(name);
-
-  return link;
 }
