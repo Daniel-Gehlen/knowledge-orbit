@@ -1,0 +1,17 @@
+1º semestre/
+2º semestre/
+3º semestre/
+4º semestre/
+5º semestre/
+node_modules/
+dist/
+.env
+.gemini/
+brain/
+task.md
+implementation_plan.md
+walkthrough.md
+*.log
+.vscode/
+.DS_Store
+package-lock.json
