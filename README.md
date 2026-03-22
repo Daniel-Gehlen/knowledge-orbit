@@ -2,7 +2,7 @@
 
 Bem-vindo ao **Knowledge Orbit**, um portal interativo projetado para auxiliar estudantes de Análise e Desenvolvimento de Sistemas (ADS) na revisão de conceitos fundamentais através de resumos teóricos e flashcards práticos.
 
-![Demo do Projeto](file:///home/daniel/.gemini/antigravity/brain/a0039d99-15cd-44eb-a0c9-f5ec8e86b7a8/knowledge_orbit_demo_1774196322909.webp)
+![Demo do Projeto](./knowledge-orbit/src/assets/demo.webp)
 
 ## 📌 Sobre o Projeto
 
