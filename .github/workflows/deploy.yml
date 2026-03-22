@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - main
-    paths:
-      - 'knowledge-orbit/**'
   workflow_dispatch:
 
 permissions:
