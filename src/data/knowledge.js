@@ -7,7 +7,19 @@ export const knowledge = {
       { term: "Fluxograma", definition: "Representação gráfica de um algoritmo usando formas geométricas (retângulos, losangos, etc.) conectadas por flechas que mostram o fluxo de execução." },
       { term: "Pseudocódigo", definition: "Forma de escrever algoritmos usando português estruturado, semelhante à sintaxe de programação. É um meio-termo entre a linguagem natural e o código real." },
       { term: "Tipos de Dados", definition: "Classificações que especificam as características dos dados: inteiro (números sem casa decimal), real (números com casa decimal), caractere (letras e símbolos) e lógico (verdadeiro ou falso)." },
-      { term: "Regras para Variáveis", definition: "Nomes devem ser únicos e significativos, começar com letra, usar apenas letras, números e underline, e não podem ser palavras reservadas da linguagem." }
+      { term: "Regras para Variáveis", definition: "Nomes devem ser únicos e significativos, começar com letra, usar apenas letras, números e underline, e não podem ser palavras reservadas da linguagem." },
+      { term: "Estrutura Condicional if", definition: "Permite tomar uma decisão e criar um desvio dentro do programa. Se a condição for verdadeira, os comandos dentro do if são executados." },
+      { term: "Estrutura Condicional if-else", definition: "Executa um bloco de código se a condição for verdadeira e outro bloco (else) se for falsa. Oferece dois caminhos possíveis." },
+      { term: "Estrutura switch-case", definition: "Permite escolher entre múltiplas opções baseadas no valor de uma variável. Usa constantes para comparação e break para sair de cada caso." },
+      { term: "Estrutura Condicional Encadeada", definition: "Quando múltiplas estruturas if-else são usadas em sequência para verificar várias condições em ordem." },
+      { term: "Estrutura de Repetição while", definition: "Executa comandos repetidamente enquanto uma condição verdadeira for verificada. Só para quando a condição se tornar falsa." },
+      { term: "Estrutura de Repetição do-while", definition: "Executa os comandos primeiro e depois analisa a condição no final do laço. Garante que os comandos sejam executados pelo menos uma vez." },
+      { term: "Estrutura de Repetição for", definition: "Repete uma informação por um número fixo de vezes. Tem três partes: inicialização, condição final e incremento." },
+      { term: "Contador", definition: "Variável utilizada para controlar as repetições, podendo ser incrementada (aumentar) ou decrementada (diminuir)." },
+      { term: "Acumulador", definition: "Variável que soma as entradas de dados de cada iteração da repetição, gerando um somatório ao final." },
+      { term: "Vetor", definition: "Tipo especial de variável que armazena diversos valores ao mesmo tempo usando um mesmo endereço na memória. Sintaxe: tipo variavel[n]." },
+      { term: "Matriz", definition: "Arranjo de duas ou mais dimensões. Todos os elementos são do mesmo tipo. Sintaxe: tipo variável[m][n]." },
+      { term: "Índices em Variáveis Compostas", definition: "Em qualquer variável composta, o índice começa por zero. Em uma matriz, o primeiro espaço é sempre (0,0). Não é obrigatório ocupar todas as posições." }
     ]
   },
   "engenharia-software": {
@@ -26,7 +38,11 @@ export const knowledge = {
       { term: "Função main()", definition: "É o ponto de entrada de todo programa em C. Todo código executável deve estar dentro desta função." },
       { term: "Tipos de Dados em C", definition: "int para números inteiros, float para números decimais, char para caracteres individuais. Cada tipo ocupa uma quantidade específica de memória." },
       { term: "Operadores", definition: "Símbolos que realizam operações: aritméticos (+, -, *, /, %), de atribuição (=), relacionais (==, !=, >, <) e lógicos (&&, ||, !)." },
-      { term: "Comandos de Entrada/Saída", definition: "printf() para mostrar dados na tela e scanf() para ler dados do teclado. Usam especificadores de formato como %d para inteiros e %f para decimais." }
+      { term: "Comandos de Entrada/Saída", definition: "printf() para mostrar dados na tela e scanf() para ler dados do teclado. Usam especificadores de formato como %d para inteiros e %f para decimais." },
+      { term: "Comando switch em C", definition: "Avalia uma variável e executa o bloco de código correspondente ao case que coincide com o valor. Usa break para sair e default para caso não haja correspondência." },
+      { term: "Comando for em C", definition: "Sintaxe: for (inicialização; condição final; incremento) { comandos; }. Repete um número fixo de vezes." },
+      { term: "Comando while em C", definition: "Sintaxe: while (condição) { comandos; }. Executa enquanto a condição for verdadeira." },
+      { term: "Comando do-while em C", definition: "Sintaxe: do { comandos; } while (condição);. Executa pelo menos uma vez, depois verifica a condição." }
     ]
   },
   "logica-matematica": {
