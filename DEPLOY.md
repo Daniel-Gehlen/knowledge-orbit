@@ -31,6 +31,7 @@ Isso significa que o site estará disponível em:
    git add dist/
    git commit -m "Add build for GitHub Pages"
    git push origin fix/github-pages-v2
+   git push origin fix/github-pages-deployment
    ```
 
 4. **Configurar GitHub Pages:**
