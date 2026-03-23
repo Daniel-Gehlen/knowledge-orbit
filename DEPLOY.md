@@ -30,6 +30,7 @@ Isso significa que o site estará disponível em:
    ```bash
    git add dist/
    git commit -m "Add build for GitHub Pages"
+   git push origin fix/github-pages-v2
    git push origin fix/github-pages-deployment
    ```
 
