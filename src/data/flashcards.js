@@ -22,7 +22,8 @@ import {
   logicaEvolucao,
   algebraConjuntos,
   logicaProposicional,
-  tabelaVerdade
+  tabelaVerdade,
+  sistemaUnix
 } from './flashcards/index.js';
 
 export const flashcards = {
@@ -46,5 +47,6 @@ export const flashcards = {
   "logica-evolucao": logicaEvolucao,
   "algebra-conjuntos": algebraConjuntos,
   "logica-proposicional": logicaProposicional,
-  "tabela-verdade": tabelaVerdade
+  "tabela-verdade": tabelaVerdade,
+  "sistema-unix": sistemaUnix
 };
