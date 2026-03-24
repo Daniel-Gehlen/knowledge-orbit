@@ -1,8 +1,12 @@
 export const topics = [
   { id: "algoritmos", title: "Algoritmos e Programação Estruturada", module: "1º Conhecimento" },
   { id: "engenharia-software", title: "Engenharia de Software", module: "1º Conhecimento" },
-  { id: "linguagem-programacao", title: "Linguagem de Programação", module: "1º Conhecimento" },
+  { id: "linguagem-programacao", title: "Linguagem de Programação (C)", module: "1º Conhecimento" },
   { id: "logica-matematica", title: "Lógica e Matemática Computacional", module: "1º Conhecimento" },
+  { id: "python-introducao", title: "Python - Introdução e Fundamentos", module: "1º Conhecimento" },
+  { id: "python-estruturas-dados", title: "Python - Estruturas de Dados", module: "1º Conhecimento" },
+  { id: "python-orientacao-objetos", title: "Python - Orientação a Objetos", module: "2º Conhecimento" },
+  { id: "python-pandas", title: "Python - Biblioteca Pandas", module: "2º Conhecimento" },
   { id: "analise-oo", title: "Análise Orientada a Objetos", module: "2º Conhecimento" },
   { id: "linguagem-oo", title: "Linguagem Orientada a Objetos", module: "2º Conhecimento" },
   { id: "frameworks", title: "Frameworks para Desenvolvimento", module: "3º Conhecimento" },
