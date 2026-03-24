@@ -15,3 +15,8 @@ export { pythonIntroducao } from './python-introducao.js';
 export { pythonEstruturasDados } from './python-estruturas-dados.js';
 export { pythonOrientacaoObjetos } from './python-orientacao-objetos.js';
 export { pythonPandas } from './python-pandas.js';
+export { logicaFundamentos } from './logica-fundamentos.js';
+export { logicaEvolucao } from './logica-evolucao.js';
+export { algebraConjuntos } from './algebra-conjuntos.js';
+export { logicaProposicional } from './logica-proposicional.js';
+export { tabelaVerdade } from './tabela-verdade.js';

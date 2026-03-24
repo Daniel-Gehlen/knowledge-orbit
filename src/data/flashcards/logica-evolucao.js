@@ -1,0 +1,15 @@
+export const logicaEvolucao = [
+  { q: "Quais são os três grandes períodos da evolução da Lógica?", a: "Período Aristotélico (Lógica Clássica), Período Booleano (Álgebra Booleana) e Período Atual." },
+  { q: "Quem foi George Boole e qual sua contribuição para a Lógica?", a: "Foi o inventor da Álgebra Booleana, o primeiro sistema totalmente detalhado que lida com a lógica como cálculo, utilizando apenas dois números (0 e 1) significando falso e verdadeiro." },
+  { q: "O que é Álgebra Booleana?", a: "É um sistema que utiliza apenas dois dígitos (0 e 1) significando falso e verdadeiro, respectivamente, e que por meio de propriedades essenciais dos operadores lógicos e de conjuntos oferece uma estrutura para lidar com proposições." },
+  { q: "Na Álgebra Booleana, como funciona a adição?", a: "A adição é associada ao conectivo OU. Exemplo: (A) + (B) = 1 + 0 = 1 (Verdadeira), onde 'O Brasil é um país da América do Sul OU Pablo Picasso é um grande jogador de futebol' é verdadeiro." },
+  { q: "Na Álgebra Booleana, como funciona a multiplicação?", a: "A multiplicação é associada ao conectivo E. Exemplo: (A) x (B) = 1 x 0 = 0 (Falsa), onde 'O Brasil é um país da América do Sul E Pablo Picasso é um grande jogador de futebol' é falso." },
+  { q: "Quem foi Georg Cantor e qual sua contribuição?", a: "Foi o idealizador da Teoria de Conjuntos, que serviu como estrutura de linguagem para a lógica formal e alicerce de toda a Matemática Moderna." },
+  { q: "O que é um circuito lógico?", a: "É um dispositivo que pode assumir dois estados: 'fechado' (1) permite passagem de corrente, ou 'aberto' (0) impede passagem de corrente. Quando há passagem de corrente, uma luz ligada ao circuito se acende." },
+  { q: "O que é Matemática Discreta?", a: "É um ramo da matemática voltado ao estudo de objetos e estruturas discretas ou finitas. É usada quando contamos objetos, estudamos relações entre conjuntos finitos e quando processos (algoritmos) envolvendo número finito de passos são analisados." },
+  { q: "Quais são os três tipos de problemas abordados pela Matemática Discreta?", a: "1) Problemas de existência (existe algum arranjo satisfazendo determinada propriedade?); 2) Problemas de contagem (quantos arranjos ou configurações existem?); 3) Problemas de otimização (qual é a melhor configuração?)." },
+  { q: "O que é Arranjo?", a: "É uma sequência ordenada de p elementos distintos escolhidos entre n elementos existentes. Fórmula: n!/(n-p)!" },
+  { q: "O que é Permutação?", a: "É um caso especial de arranjo onde selecionamos exatamente n elementos de um conjunto com n elementos distintos para formar uma sequência ordenada." },
+  { q: "O que é Combinação?", a: "É um subconjunto formado por p elementos distintos escolhidos entre n existentes, onde a ordem não importa. Fórmula: n!/(p!(n-p)!)" },
+  { q: "O que é uma Árvore de Decisão?", a: "É uma estrutura hierárquica que representa um mapeamento de possíveis resultados de uma série de escolhas relacionadas, auxiliando na tomada de decisões e criação de planos de ação." }
+];

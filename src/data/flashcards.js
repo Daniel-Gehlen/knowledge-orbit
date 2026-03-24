@@ -17,7 +17,12 @@ import {
   pythonIntroducao,
   pythonEstruturasDados,
   pythonOrientacaoObjetos,
-  pythonPandas
+  pythonPandas,
+  logicaFundamentos,
+  logicaEvolucao,
+  algebraConjuntos,
+  logicaProposicional,
+  tabelaVerdade
 } from './flashcards/index.js';
 
 export const flashcards = {
@@ -36,5 +41,10 @@ export const flashcards = {
   "python-introducao": pythonIntroducao,
   "python-estruturas-dados": pythonEstruturasDados,
   "python-orientacao-objetos": pythonOrientacaoObjetos,
-  "python-pandas": pythonPandas
+  "python-pandas": pythonPandas,
+  "logica-fundamentos": logicaFundamentos,
+  "logica-evolucao": logicaEvolucao,
+  "algebra-conjuntos": algebraConjuntos,
+  "logica-proposicional": logicaProposicional,
+  "tabela-verdade": tabelaVerdade
 };
