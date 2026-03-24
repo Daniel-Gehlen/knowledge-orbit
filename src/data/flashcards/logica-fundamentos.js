@@ -12,5 +12,21 @@ export const logicaFundamentos = [
   { q: "Quais são os princípios fundamentais da Lógica Clássica?", a: "1) Princípio da Identidade: uma proposição é igual a si mesma; 2) Princípio da Não-Contradição: uma proposição não pode ser verdadeira e falsa ao mesmo tempo; 3) Princípio do Terceiro Excluído: uma proposição ou é verdadeira ou é falsa." },
   { q: "O que é o Princípio da Identidade?", a: "Garante que uma proposição é igual a si mesma. Uma proposição verdadeira é verdadeira e uma proposição falsa é falsa." },
   { q: "O que é o Princípio da Não-Contradição?", a: "Uma proposição não pode ser verdadeira e falsa ao mesmo tempo." },
-  { q: "O que é o Princípio do Terceiro Excluído?", a: "Uma proposição ou é verdadeira ou é falsa; não existe uma terceira alternativa." }
+  { q: "O que é o Princípio do Terceiro Excluído?", a: "Uma proposição ou é verdadeira ou é falsa; não existe uma terceira alternativa." },
+  { q: "Quem foi George Boole?", a: "Foi o inventor da Álgebra Booleana, o primeiro sistema totalmente detalhado que lida com a lógica como cálculo." },
+  { q: "O que é Álgebra Booleana?", a: "É um sistema que utiliza apenas dois números (0 e 1), significando falso e verdadeiro respectivamente, e por meio de propriedades essenciais dos operadores lógicos oferece uma estrutura para lidar com proposições." },
+  { q: "Na Álgebra Booleana, o que representa 0 e 1?", a: "0 representa falso e 1 representa verdadeiro." },
+  { q: "Na Álgebra Booleana, como funciona a adição?", a: "A adição é associada ao conectivo OU. Exemplo: (A) + (B) = 1 + 0 = 1 (Verdadeira)." },
+  { q: "Na Álgebra Booleana, como funciona a multiplicação?", a: "A multiplicação é associada ao conectivo E. Exemplo: (A) x (B) = 1 x 0 = 0 (Falsa)." },
+  { q: "Quem foi Georg Cantor?", a: "Foi o idealizador da Teoria de Conjuntos, que serviu como estrutura de linguagem para a lógica formal e alicerce da Matemática Moderna." },
+  { q: "O que é Matemática Discreta?", a: "É um ramo da matemática voltado ao estudo de objetos e estruturas discretas ou finitas, usada quando contamos objetos, estudamos relações entre conjuntos finitos e analisamos processos envolvendo número finito de passos." },
+  { q: "O que é um Arranjo?", a: "É uma sequência ordenada de p elementos distintos escolhidos entre n elementos existentes. A fórmula é n!/(n-p)!." },
+  { q: "O que é uma Permutação?", a: "É um caso especial de arranjo onde selecionamos exatamente n elementos para formar a sequência ordenada. A fórmula é n!." },
+  { q: "O que é uma Combinação?", a: "É um subconjunto formado por p elementos distintos escolhidos entre n existentes, onde a ordem não importa. A fórmula é n!/(p!(n-p)!)." },
+  { q: "O que é uma Árvore de Decisão?", a: "É uma estrutura hierárquica que representa um mapeamento de possíveis resultados de uma série de escolhas relacionadas, útil para tomada de decisões e algoritmos." },
+  { q: "O que é o Princípio Multiplicativo?", a: "É um método de contagem que diz que se uma tarefa pode ser dividida em etapas, o número total de maneiras de realizar a tarefa é o produto do número de maneiras de realizar cada etapa." },
+  { q: "O que é Lógica Computacional?", a: "É a aplicação dos princípios da lógica formal na computação, permitindo a construção de algoritmos capazes de tomar decisões baseadas em regras lógicas." },
+  { q: "Qual é a importância da Lógica na Computação?", a: "Permite o desenvolvimento de algoritmos de tomada de decisão, estruturas condicionais, validação de argumentos, circuitos lógicos e inteligência artificial." },
+  { q: "O que são Circuitos Lógicos?", a: "São dispositivos que utilizam operações lógicas (E, OU, NÃO) para processar sinais binários (0 e 1), fundamentais para o funcionamento de computadores." },
+  { q: "O que é um interruptor em circuitos lógicos?", a: "É um dispositivo ligado a um ponto de um circuito que pode assumir dois estados: fechado (1, permite passagem de corrente) ou aberto (0, não permite passagem de corrente)." }
 ];
