@@ -20,3 +20,4 @@ export { logicaEvolucao } from './logica-evolucao.js';
 export { algebraConjuntos } from './algebra-conjuntos.js';
 export { logicaProposicional } from './logica-proposicional.js';
 export { tabelaVerdade } from './tabela-verdade.js';
+export { sistemaUnix } from './sistema-unix.js';

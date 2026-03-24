@@ -14,5 +14,6 @@ export const topics = [
   { id: "programacao-web", title: "Programação Web", module: "4º Conhecimento" },
   { id: "arquitetura-computadores", title: "Arquitetura e Organização de Computadores", module: "1º Conhecimento" },
   { id: "redes-computadores", title: "Redes de Computadores", module: "5º Conhecimento" },
-  { id: "seguranca-auditoria", title: "Segurança e Auditoria de Sistemas", module: "5º Conhecimento" }
+  { id: "seguranca-auditoria", title: "Segurança e Auditoria de Sistemas", module: "5º Conhecimento" },
+  { id: "sistema-unix", title: "Sistema Unix e Comandos", module: "2º Conhecimento" }
 ];
