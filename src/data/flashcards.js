@@ -13,7 +13,8 @@ import {
   arquiteturaComputadores,
   analiseOo,
   redesComputadores,
-  segurancaAuditoria
+  segurancaAuditoria,
+  pythonIntroducao
 } from './flashcards/index.js';
 
 export const flashcards = {
@@ -28,5 +29,6 @@ export const flashcards = {
   "arquitetura-computadores": arquiteturaComputadores,
   "analise-oo": analiseOo,
   "redes-computadores": redesComputadores,
-  "seguranca-auditoria": segurancaAuditoria
+  "seguranca-auditoria": segurancaAuditoria,
+  "python-introducao": pythonIntroducao
 };
