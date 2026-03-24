@@ -19,7 +19,18 @@ export const knowledge = {
       { term: "Acumulador", definition: "Variável que soma as entradas de dados de cada iteração da repetição, gerando um somatório ao final." },
       { term: "Vetor", definition: "Tipo especial de variável que armazena diversos valores ao mesmo tempo usando um mesmo endereço na memória. Sintaxe: tipo variavel[n]." },
       { term: "Matriz", definition: "Arranjo de duas ou mais dimensões. Todos os elementos são do mesmo tipo. Sintaxe: tipo variável[m][n]." },
-      { term: "Índices em Variáveis Compostas", definition: "Em qualquer variável composta, o índice começa por zero. Em uma matriz, o primeiro espaço é sempre (0,0). Não é obrigatório ocupar todas as posições." }
+      { term: "Índices em Variáveis Compostas", definition: "Em qualquer variável composta, o índice começa por zero. Em uma matriz, o primeiro espaço é sempre (0,0). Não é obrigatório ocupar todas as posições." },
+      { term: "Função", definition: "Um trecho de código escrito para resolver um subproblema. Divide a complexidade de um problema maior e evita repetição de código. A técnica de dividir para conquistar é fundamental." },
+      { term: "Componentes de uma Função", definition: "Tipo de retorno (obrigatório, indica o tipo de valor que a função retorna, como int, float, char ou void) e nome (obrigatório, identifica a função). Parâmetros são opcionais." },
+      { term: "Ponteiro", definition: "Tipo especial de variável que armazena um endereço de memória. Usa-se o asterisco (*) para criação e o 'e comercial' (&) para acessar o endereço da memória." },
+      { term: "Função malloc()", definition: "Aloca memória dinamicamente. Exemplo: int *memoria = malloc(100); Retorna NULL ou um ponteiro genérico." },
+      { term: "Escopo de Variáveis", definition: "Define onde uma variável pode ser 'enxergada'. Variáveis locais são visíveis apenas dentro da função; variáveis globais são visíveis em todo o programa." },
+      { term: "Passagem de Valor", definition: "A função cria variáveis locais automaticamente para armazenar os valores passados; após a execução, essas variáveis são liberadas." },
+      { term: "Passagem por Referência", definition: "Usa ponteiro e endereço de memória; não cria cópia dos argumentos, a função trabalha diretamente com os valores originais armazenados." },
+      { term: "Função Recursiva", definition: "Uma função que é invocada dentro dela mesma. Resolve um problema dividindo-o em subproblemas mais simples, cuja solução é a aplicação da mesma função." },
+      { term: "Requisitos para Recursividade", definition: "Ter um ponto de parada (condição que encerra a recursão), variáveis na memória de trabalho e variáveis independentes." },
+      { term: "Fatorial", definition: "O fatorial de um número N consiste em multiplicações sucessivas até que N seja igual ao valor unitário. Exemplo: 5! = 5×4×3×2×1 = 120." },
+      { term: "Sequência de Fibonacci", definition: "Uma sequência onde cada número é a soma dos dois anteriores. O n-ésimo elemento é calculado recursivamente: F(n) = F(n-1) + F(n-2)." }
     ]
   },
   "engenharia-software": {
@@ -42,7 +53,10 @@ export const knowledge = {
       { term: "Comando switch em C", definition: "Avalia uma variável e executa o bloco de código correspondente ao case que coincide com o valor. Usa break para sair e default para caso não haja correspondência." },
       { term: "Comando for em C", definition: "Sintaxe: for (inicialização; condição final; incremento) { comandos; }. Repete um número fixo de vezes." },
       { term: "Comando while em C", definition: "Sintaxe: while (condição) { comandos; }. Executa enquanto a condição for verdadeira." },
-      { term: "Comando do-while em C", definition: "Sintaxe: do { comandos; } while (condição);. Executa pelo menos uma vez, depois verifica a condição." }
+      { term: "Comando do-while em C", definition: "Sintaxe: do { comandos; } while (condição);. Executa pelo menos uma vez, depois verifica a condição." },
+      { term: "Declaração de Função em C", definition: "tipo_retorno nome_função(parâmetros) { comandos; return valor; }. O tipo void indica que não retorna valor." },
+      { term: "Declaração de Ponteiro em C", definition: "tipo *nome_do_ponteiro; Exemplo: int *idade;. Apenas cria sentido quando associado a um endereço de memória." },
+      { term: "Alocação Dinâmica em C", definition: "Usando a função malloc(): tipo *ponteiro = malloc(tamanho_em_bytes);. Retorna NULL se falhar ou um ponteiro genérico se sucesso." }
     ]
   },
   "logica-matematica": {

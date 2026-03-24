@@ -19,7 +19,19 @@ export const flashcards = {
     { q: "O que é um vetor?", a: "Tipo especial de variável que armazena diversos valores ao mesmo tempo usando um mesmo endereço na memória. Sintaxe: tipo variavel[n]." },
     { q: "O que é uma matriz?", a: "Arranjo de duas ou mais dimensões; todos os elementos são do mesmo tipo. Sintaxe: tipo variável[m][n]." },
     { q: "Qual a regra sobre índices em variáveis compostas?", a: "O índice sempre começa por zero; em uma matriz, o primeiro espaço é sempre (0,0)." },
-    { q: "É obrigatório ocupar todas as posições de um vetor ou matriz?", a: "Não, é possível declarar um vetor ou matriz com mais posições do que serão utilizadas." }
+    { q: "É obrigatório ocupar todas as posições de um vetor ou matriz?", a: "Não, é possível declarar um vetor ou matriz com mais posições do que serão utilizadas." },
+    { q: "O que é uma função?", a: "Um trecho de código escrito para resolver um subproblema, dividindo a complexidade de um problema maior e evitando repetição de código." },
+    { q: "Quais são os componentes obrigatórios de uma função?", a: "Tipo de retorno (obrigatório, indica qual o tipo de valor a função retornará) e nome (obrigatório, identifica a função)." },
+    { q: "O que são parâmetros de uma função?", a: "São opcionais e permitem passar valores para a função; quando o tipo de retorno não é void, é obrigatório usar retorno." },
+    { q: "O que é um ponteiro?", a: "Um tipo especial de variável que armazena um endereço de memória. Usa-se o asterisco (*) para criação e o 'e comercial' (&) para acessar o endereço." },
+    { q: "Como funciona a função malloc()?", a: "Aloca memória dinamicamente. Exemplo: int *memoria = malloc(100); Retorna NULL ou um ponteiro genérico." },
+    { q: "O que é escopo de variáveis?", a: "Define onde uma variável pode ser 'enxergada'. Variáveis locais são visíveis apenas dentro da função; variáveis globais são visíveis em todo o programa." },
+    { q: "O que é passagem de valor?", a: "A função cria variáveis locais automaticamente para armazenar os valores passados; após a execução, essas variáveis são liberadas." },
+    { q: "O que é passagem por referência?", a: "Usa ponteiro e endereço de memória; não cria cópia dos argumentos, a função trabalha diretamente com os valores originais." },
+    { q: "O que é uma função recursiva?", a: "Uma função que é invocada dentro dela mesma. Resolve um problema dividindo-o em subproblemas mais simples." },
+    { q: "Quais são os requisitos para uma função recursiva?", a: "Ter um ponto de parada, variáveis na memória de trabalho e variáveis independentes." },
+    { q: "O que é o fatorial?", a: "O fatorial de um número N consiste em multiplicações sucessivas até que N seja igual ao valor unitário. Exemplo: 5! = 5×4×3×2×1 = 120." },
+    { q: "O que é a sequência de Fibonacci?", a: "Uma sequência onde cada número é a soma dos dois anteriores. O n-ésimo elemento é calculado recursivamente." }
   ],
   "engenharia-software": [
     { q: "O que é o Manifesto Ágil?", a: "Um conjunto de princípios para o desenvolvimento ágil de software." },
@@ -36,7 +48,10 @@ export const flashcards = {
     { q: "Como funciona o comando switch em C?", a: "Avalia uma variável e executa o bloco de código correspondente ao case que coincide com o valor; usa break para sair e default para caso não haja correspondência." },
     { q: "Como é a sintaxe do comando for em C?", a: "for (inicialização; condição final; incremento) { comandos; }" },
     { q: "Como é a sintaxe do comando while em C?", a: "while (condição) { comandos; }" },
-    { q: "Como é a sintaxe do comando do-while em C?", a: "do { comandos; } while (condição);" }
+    { q: "Como é a sintaxe do comando do-while em C?", a: "do { comandos; } while (condição);" },
+    { q: "Como declarar uma função em C?", a: "tipo_retorno nome_função(parâmetros) { comandos; return valor; }" },
+    { q: "Como declarar um ponteiro em C?", a: "tipo *nome_do_ponteiro; Exemplo: int *idade;" },
+    { q: "Como alocar memória dinamicamente em C?", a: "Usando a função malloc(): tipo *ponteiro = malloc(tamanho_em_bytes);" }
   ],
   "logica-matematica": [
     { q: "O que é uma proposição?", a: "Uma oração declarativa que pode ser classificada como verdadeira ou falsa." },
