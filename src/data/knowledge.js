@@ -30,7 +30,17 @@ export const knowledge = {
       { term: "Função Recursiva", definition: "Uma função que é invocada dentro dela mesma. Resolve um problema dividindo-o em subproblemas mais simples, cuja solução é a aplicação da mesma função." },
       { term: "Requisitos para Recursividade", definition: "Ter um ponto de parada (condição que encerra a recursão), variáveis na memória de trabalho e variáveis independentes." },
       { term: "Fatorial", definition: "O fatorial de um número N consiste em multiplicações sucessivas até que N seja igual ao valor unitário. Exemplo: 5! = 5×4×3×2×1 = 120." },
-      { term: "Sequência de Fibonacci", definition: "Uma sequência onde cada número é a soma dos dois anteriores. O n-ésimo elemento é calculado recursivamente: F(n) = F(n-1) + F(n-2)." }
+      { term: "Sequência de Fibonacci", definition: "Uma sequência onde cada número é a soma dos dois anteriores. O n-ésimo elemento é calculado recursivamente: F(n) = F(n-1) + F(n-2)." },
+      { term: "Estrutura de Dados", definition: "Forma organizada de armazenar e gerencizar dados na memória do computador para que possam ser acessados e modificados de forma eficiente." },
+      { term: "Struct", definition: "Variável que armazena valores de tipos diferentes. Imagine como uma caixa com compartimentos: cada compartimento guarda um tipo de informação (nome, idade, etc.)." },
+      { term: "Lista Ligada", definition: "Estrutura de dados linear e dinâmica onde cada elemento (nó) contém dados e um ponteiro para o próximo elemento. É como uma corrente onde cada elo aponta para o próximo." },
+      { term: "Nó (Node)", definition: "Elemento individual de uma lista ligada que contém dois campos: o dado armazenado e um ponteiro para o próximo nó da lista." },
+      { term: "Operações em Lista Ligada", definition: "Principais operações: criação da estrutura, inicialização, inserção de elementos (no início, meio ou final), remoção de elementos e percorrer a lista para buscar elementos." },
+      { term: "Pilha (Stack)", definition: "Estrutura de dados do tipo LIFO (Last-In, First-Out): o último elemento inserido é o primeiro a ser removido. Imagine uma pilha de pratos: você sempre pega o prato do topo." },
+      { term: "Operação Push", definition: "Ação de empilhar um elemento na pilha. Coloca o novo elemento no topo da estrutura." },
+      { term: "Operação Pop", definition: "Ação de desempilhar um elemento da pilha. Remove e retorna o elemento do topo da estrutura." },
+      { term: "Fila (Queue)", definition: "Estrutura de dados do tipo FIFO (First-In, First-Out): o primeiro elemento inserido é o primeiro a ser removido. Imagine uma fila de banco: quem chega primeiro é atendido primeiro." },
+      { term: "Operações em Fila", definition: "Principais operações: criar fila vazia, inserir elemento no final (enqueue), remover elemento do início (dequeue) e verificar se a fila está vazia." }
     ]
   },
   "engenharia-software": {

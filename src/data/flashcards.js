@@ -31,7 +31,17 @@ export const flashcards = {
     { q: "O que é uma função recursiva?", a: "Uma função que é invocada dentro dela mesma. Resolve um problema dividindo-o em subproblemas mais simples." },
     { q: "Quais são os requisitos para uma função recursiva?", a: "Ter um ponto de parada, variáveis na memória de trabalho e variáveis independentes." },
     { q: "O que é o fatorial?", a: "O fatorial de um número N consiste em multiplicações sucessivas até que N seja igual ao valor unitário. Exemplo: 5! = 5×4×3×2×1 = 120." },
-    { q: "O que é a sequência de Fibonacci?", a: "Uma sequência onde cada número é a soma dos dois anteriores. O n-ésimo elemento é calculado recursivamente." }
+    { q: "O que é a sequência de Fibonacci?", a: "Uma sequência onde cada número é a soma dos dois anteriores. O n-ésimo elemento é calculado recursivamente." },
+    { q: "O que é uma Estrutura de Dados?", a: "Forma organizada de armazenar e gerenciar dados na memória do computador para que possam ser acessados e modificados de forma eficiente." },
+    { q: "O que é uma Struct?", a: "Variável que armazena valores de tipos diferentes. É como uma caixa com compartimentos: cada compartimento guarda um tipo de informação." },
+    { q: "O que é uma Lista Ligada?", a: "Estrutura de dados linear e dinâmica onde cada elemento (nó) contém dados e um ponteiro para o próximo elemento. É como uma corrente onde cada elo aponta para o próximo." },
+    { q: "O que é um Nó (Node)?", a: "Elemento individual de uma lista ligada que contém dois campos: o dado armazenado e um ponteiro para o próximo nó da lista." },
+    { q: "Quais são as principais operações em uma Lista Ligada?", a: "Criação da estrutura, inicialização, inserção de elementos (no início, meio ou final), remoção de elementos e percorrer a lista para buscar elementos." },
+    { q: "O que é uma Pilha (Stack)?", a: "Estrutura de dados do tipo LIFO (Last-In, First-Out): o último elemento inserido é o primeiro a ser removido. Como uma pilha de pratos." },
+    { q: "O que é a operação Push?", a: "Ação de empilhar um elemento na pilha. Coloca o novo elemento no topo da estrutura." },
+    { q: "O que é a operação Pop?", a: "Ação de desempilhar um elemento da pilha. Remove e retorna o elemento do topo da estrutura." },
+    { q: "O que é uma Fila (Queue)?", a: "Estrutura de dados do tipo FIFO (First-In, First-Out): o primeiro elemento inserido é o primeiro a ser removido. Como uma fila de banco." },
+    { q: "Quais são as principais operações em uma Fila?", a: "Criar fila vazia, inserir elemento no final (enqueue), remover elemento do início (dequeue) e verificar se a fila está vazia." }
   ],
   "engenharia-software": [
     { q: "O que é o Manifesto Ágil?", a: "Um conjunto de princípios para o desenvolvimento ágil de software." },
