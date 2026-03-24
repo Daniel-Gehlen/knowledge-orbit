@@ -12,3 +12,6 @@ export { analiseOo } from './analise-oo.js';
 export { redesComputadores } from './redes-computadores.js';
 export { segurancaAuditoria } from './seguranca-auditoria.js';
 export { pythonIntroducao } from './python-introducao.js';
+export { pythonEstruturasDados } from './python-estruturas-dados.js';
+export { pythonOrientacaoObjetos } from './python-orientacao-objetos.js';
+export { pythonPandas } from './python-pandas.js';

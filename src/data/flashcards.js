@@ -14,7 +14,10 @@ import {
   analiseOo,
   redesComputadores,
   segurancaAuditoria,
-  pythonIntroducao
+  pythonIntroducao,
+  pythonEstruturasDados,
+  pythonOrientacaoObjetos,
+  pythonPandas
 } from './flashcards/index.js';
 
 export const flashcards = {
@@ -30,5 +33,8 @@ export const flashcards = {
   "analise-oo": analiseOo,
   "redes-computadores": redesComputadores,
   "seguranca-auditoria": segurancaAuditoria,
-  "python-introducao": pythonIntroducao
+  "python-introducao": pythonIntroducao,
+  "python-estruturas-dados": pythonEstruturasDados,
+  "python-orientacao-objetos": pythonOrientacaoObjetos,
+  "python-pandas": pythonPandas
 };
