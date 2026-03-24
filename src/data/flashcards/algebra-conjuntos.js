@@ -13,5 +13,19 @@ export const algebraConjuntos = [
   { q: "O que é o Produto Cartesiano?", a: "O produto cartesiano (x) dos conjuntos A e B é formado pelos pares ordenados (a,b) com a ∈ A e b ∈ B. A × B ≠ B × A (não é comutativo)." },
   { q: "O que é o método de inclusão-exclusão?", a: "É um método de contagem que consiste em: A ∪ B = A + B - A ∩ B. Usado para calcular o número de elementos em conjuntos." },
   { q: "O que é cardinalidade de um conjunto?", a: "É o número de elementos distintos em um conjunto. Representada por |A|." },
-  { q: "Quais são os principais conjuntos numéricos?", a: "N (números naturais), Z (números inteiros), Q (números racionais), R (números reais) e C (números complexos)." }
+  { q: "Quais são os principais conjuntos numéricos?", a: "N (números naturais), Z (números inteiros), Q (números racionais), R (números reais) e C (números complexos)." },
+  { q: "O que é a Teoria de Conjuntos?", a: "É um ramo da matemática que estuda conjuntos, suas operações e propriedades, servindo como linguagem para a lógica formal e alicerce da Matemática Moderna." },
+  { q: "Quem idealizou a Teoria de Conjuntos?", a: "Georg Cantor foi o idealizador da Teoria de Conjuntos, que serviu como estrutura de linguagem para a lógica formal." },
+  { q: "Como representar conjuntos por extensão?", a: "Listando todos os elementos entre chaves. Exemplo: A = {1, 2, 3, 4}." },
+  { q: "Como representar conjuntos por compreensão?", a: "Descrevendo a propriedade comum dos elementos. Exemplo: A = {x | x é número par e x < 10}." },
+  { q: "O que é um conjunto finito?", a: "É um conjunto com número limitado de elementos. Exemplo: conjunto dos estados do Brasil." },
+  { q: "O que é um conjunto infinito?", a: "É um conjunto com número ilimitado de elementos. Exemplo: conjunto dos números naturais." },
+  { q: "Qual é a notação para subconjunto?", a: "A ⊆ B significa que A é subconjunto de B, ou seja, todo elemento de A também é elemento de B." },
+  { q: "Qual é a notação para não subconjunto?", a: "A ⊄ B significa que A não é subconjunto de B, ou seja, existe pelo menos um elemento de A que não está em B." },
+  { q: "O que é um Diagrama de Venn para três conjuntos?", a: "Utiliza três círculos intersectados, numerados com binário (000 a 111), representando todas as 8 possibilidades lógicas de pertinência." },
+  { q: "Como calcular a cardinalidade de A ∪ B?", a: "Pela fórmula de inclusão-exclusão: |A ∪ B| = |A| + |B| - |A ∩ B|." },
+  { q: "O que é um par ordenado?", a: "É um par (a,b) onde o primeiro elemento pertence ao primeiro conjunto e o segundo ao segundo conjunto. A ordem importa: (a,b) ≠ (b,a)." },
+  { q: "O que é o Plano Cartesiano?", a: "É uma região geométrica plana cortada por duas retas perpendiculares (eixo das abscissas x e eixo das ordenadas y)." },
+  { q: "O que são abscissas e ordenadas?", a: "Abscissas são valores do eixo horizontal (x). Ordenadas são valores do eixo vertical (y). A origem é o ponto (0,0)." },
+  { q: "Como calcular o número de subconjuntos de {1,2,3,4}?", a: "|A| = 4, então número de subconjuntos = 2^4 = 16 subconjuntos, incluindo o conjunto vazio e o próprio conjunto." }
 ];

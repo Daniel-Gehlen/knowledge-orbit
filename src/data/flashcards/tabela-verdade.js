@@ -12,5 +12,20 @@ export const tabelaVerdade = [
   { q: "Como construir uma Tabela Verdade?", a: "1) Determinar o número de linhas (2^n); 2) Observar a precedência dos conectivos; 3) Aplicar as definições das operações lógicas." },
   { q: "O que é uma expressão lógica?", a: "É uma combinação de proposições simples e conectivos lógicos que pode ser avaliada como verdadeira ou falsa." },
   { q: "Como avaliar uma fórmula lógica com Tabela Verdade?", a: "Substitui-se as proposições pelos seus valores lógicos (V ou F) e aplica-se as regras dos conectivos para obter o resultado final." },
-  { q: "O que são os resultados das validações em Tabela Verdade?", a: "São classificados como: Tautologia (sempre verdadeiro), Contradição (sempre falso) ou Contingência (pode ser verdadeiro ou falso)." }
+  { q: "O que são os resultados das validações em Tabela Verdade?", a: "São classificados como: Tautologia (sempre verdadeiro), Contradição (sempre falso) ou Contingência (pode ser verdadeiro ou falso)." },
+  { q: "O que é uma Tautologia?", a: "É uma proposição composta que sempre assume valor lógico verdadeiro, independentemente dos valores das proposições simples que a constituem." },
+  { q: "O que é uma Contradição?", a: "É uma proposição composta que sempre assume valor lógico falso, independentemente dos valores das proposições simples que a constituem." },
+  { q: "O que é uma Contingência?", a: "É uma proposição composta que pode assumir tanto valores verdadeiros quanto falsos, dependendo dos valores das proposições simples." },
+  { q: "Como aplicar Tabela Verdade em Analytics?", a: "Em uma empresa de varejo, usa-se Tabela Verdade para classificar clientes com base em proposições como gênero, idade e valor de compra, auxiliando em campanhas de marketing." },
+  { q: "Como usar Tabela Verdade para regras de desconto?", a: "Define-se proposições (ex: A: cliente feminino, B: compra > R$50), monta-se a tabela e avalia-se A∧B para determinar se o cliente ganha desconto." },
+  { q: "O que é a fórmula (p ∧ ~q) ∨ (q ∧ ~p)?", a: "É uma expressão lógica que representa uma contingência, podendo assumir valores verdadeiros ou falsos dependendo dos valores de p e q." },
+  { q: "Como usar Tabela Verdade para validação de argumentos?", a: "Constrói-se a tabela para a fórmula do argumento e verifica-se se é uma tautologia (sempre verdadeira), garantindo a validade do argumento." },
+  { q: "Qual a diferença entre Matriz de Conectivos e Tabela Verdade?", a: "A Matriz de Conectivos limita uma operação por matriz, enquanto a Tabela Verdade organiza resultados e facilita operações entre vários conectores em uma mesma estrutura." },
+  { q: "Como determinar o valor lógico de uma proposição composta?", a: "Substitui-se cada proposição simples pelo seu valor lógico (V ou F) e aplica-se sequencialmente as regras dos conectivos lógicos." },
+  { q: "O que é uma proposição atômica?", a: "É uma proposição simples que não pode ser decomposta em outras proposições, representada por letras minúsculas (p, q, r...)." },
+  { q: "O que é uma proposição molecular?", a: "É uma proposição composta formada pela combinação de proposições atômicas por meio de conectivos lógicos, representada por letras maiúsculas (P, Q, R...)." },
+  { q: "Como funciona a precedência de conectivos na avaliação?", a: "Seguindo a ordem: 1) Negação (~); 2) Conjunção (∧) e Disjunção (∨); 3) Condicional (→); 4) Bicondicional (↔)." },
+  { q: "Como usar Tabela Verdade para classificar potencial de compra?", a: "Define-se regras com múltiplas proposições (idade, compras, ticket médio), monta-se a tabela e avalia-se a fórmula composta para cada cliente." },
+  { q: "O que é uma fórmula bem-formulada?", a: "É uma expressão lógica que segue as regras de sintaxe do cálculo proposicional, sendo válida para avaliação em Tabela Verdade." },
+  { q: "Como interpretar resultados de Tabela Verdade em marketing?", a: "Os resultados (V ou F) indicam se clientes atendem a critérios específicos, permitindo segmentação e personalização de campanhas promocionais." }
 ];

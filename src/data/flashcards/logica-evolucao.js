@@ -11,5 +11,22 @@ export const logicaEvolucao = [
   { q: "O que é Arranjo?", a: "É uma sequência ordenada de p elementos distintos escolhidos entre n elementos existentes. Fórmula: n!/(n-p)!" },
   { q: "O que é Permutação?", a: "É um caso especial de arranjo onde selecionamos exatamente n elementos de um conjunto com n elementos distintos para formar uma sequência ordenada." },
   { q: "O que é Combinação?", a: "É um subconjunto formado por p elementos distintos escolhidos entre n existentes, onde a ordem não importa. Fórmula: n!/(p!(n-p)!)" },
-  { q: "O que é uma Árvore de Decisão?", a: "É uma estrutura hierárquica que representa um mapeamento de possíveis resultados de uma série de escolhas relacionadas, auxiliando na tomada de decisões e criação de planos de ação." }
+  { q: "O que é uma Árvore de Decisão?", a: "É uma estrutura hierárquica que representa um mapeamento de possíveis resultados de uma série de escolhas relacionadas, auxiliando na tomada de decisões e criação de planos de ação." },
+  { q: "O que é o Princípio Multiplicativo?", a: "É um método de contagem que diz que se uma tarefa pode ser dividida em etapas, o número total de maneiras de realizar a tarefa é o produto do número de maneiras de realizar cada etapa." },
+  { q: "Na startup de tecnologia, como funciona o circuito de votação?", a: "Cada membro vota a favor apertando um botão (1) ou contra (0). Uma luz se acende (aprovação) quando o diretor executivo vota a favor E obtiver maioria dos votos." },
+  { q: "Na rede de computadores, como calcular a probabilidade de sobrecarga?", a: "Considerando 3 escritórios com 5 pontos cada (total 15), com 13 computadores conectados, analisam-se os cenários possíveis de distribuição para calcular a probabilidade de sobrecarga no escritório C." },
+  { q: "O que é o Período Aristotélico da Lógica?", a: "É o período da Lógica Clássica, regida por três princípios: identidade, não-contradição e terceiro excluído, desenvolvida por Aristóteles na Grécia Antiga." },
+  { q: "O que é o Período Booleano da Lógica?", a: "É o período em que George Boole desenvolveu a Álgebra Booleana, o primeiro sistema totalmente detalhado que lida com a lógica como cálculo usando apenas 0 e 1." },
+  { q: "Qual é a diferença entre Lógica Clássica e Não-Clássica?", a: "A Lógica Clássica segue os três princípios fundamentais (identidade, não-contradição, terceiro excluído), enquanto a Lógica Não-Clássica pode violar esses princípios em certos contextos." },
+  { q: "Como a Lógica se aplica à Startup de tecnologia?", a: "É utilizada para interpretar intenções de clientes em e-mails, demonstrar produtos, fechar vendas, projetar circuitos de votação e calcular probabilidades de sobrecarga de rede." },
+  { q: "O que é o Princípio da Identidade na Lógica Clássica?", a: "Garante que uma proposição é igual a si mesma. Uma proposição verdadeira é verdadeira e uma proposição falsa é falsa." },
+  { q: "O que é o Princípio da Não-Contradição na Lógica Clássica?", a: "Uma proposição não pode ser verdadeira e falsa ao mesmo tempo." },
+  { q: "O que é o Princípio do Terceiro Excluído na Lógica Clássica?", a: "Uma proposição ou é verdadeira ou é falsa; não existe uma terceira alternativa." },
+  { q: "Como a Matemática Discreta se aplica à Computação?", a: "É usada para contagem de objetos, estudo de relações entre conjuntos finitos, análise de algoritmos com número finito de passos e otimização de configurações." },
+  { q: "O que são problemas de existência na Matemática Discreta?", a: "São problemas que questionam se existe algum arranjo de objetos de um dado conjunto satisfazendo determinada propriedade." },
+  { q: "O que são problemas de contagem na Matemática Discreta?", a: "São problemas que questionam quantos arranjos ou configurações de um determinado tipo existem." },
+  { q: "O que são problemas de otimização na Matemática Discreta?", a: "São problemas que buscam, de todas as configurações possíveis, qual é a melhor de acordo com determinado critério." },
+  { q: "Como calcular o número de subconjuntos de um conjunto?", a: "Para um conjunto com n elementos, o número de subconjuntos é 2^n. Exemplo: conjunto {1,2,3,4} tem 2^4 = 16 subconjuntos." },
+  { q: "O que é o Diagrama de Venn?", a: "É uma representação diagramática que utiliza círculos para representar conjuntos, mostrando suas relações e interseções de forma visual." },
+  { q: "Como a Lógica Booleana se aplica a circuitos elétricos?", a: "Os interruptores representam variáveis booleanas (0 ou 1), e as operações lógicas (E, OU, NÃO) controlam o fluxo de corrente em circuitos digitais." }
 ];

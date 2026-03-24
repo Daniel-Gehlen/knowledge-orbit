@@ -14,5 +14,19 @@ export const logicaProposicional = [
   { q: "O que é uma contradição?", a: "É uma proposição composta que sempre assume valor lógico falso, independentemente dos valores das proposições simples que a constituem." },
   { q: "O que é uma contingência?", a: "É uma proposição composta que pode assumir tanto valores lógicos verdadeiros quanto falsos, dependendo dos valores das proposições simples." },
   { q: "O que é Modus Ponens?", a: "É uma regra de inferência que permite, a partir de A → B e A, inferir B. Exemplo: Se chove, então fico em casa. Choveu. Logo, fico em casa." },
-  { q: "O que é Modus Tollens?", a: "É uma regra de inferência que permite, a partir de A → B e ~B, inferir ~A. Exemplo: Se chove, então fico em casa. Não estou em casa. Logo, não choveu." }
+  { q: "O que é Modus Tollens?", a: "É uma regra de inferência que permite, a partir de A → B e ~B, inferir ~A. Exemplo: Se chove, então fico em casa. Não estou em casa. Logo, não choveu." },
+  { q: "O que é Lógica Computacional?", a: "É a aplicação dos princípios da lógica formal na computação, permitindo a construção de algoritmos capazes de tomar decisões baseadas em regras lógicas." },
+  { q: "Como as proposições simples são representadas?", a: "São representadas por letras latinas minúsculas: p, q, r, s, u, v, w. Exemplo: p: 12 > 2; q: Joana é uma excelente professora." },
+  { q: "Como as proposições compostas são representadas?", a: "São representadas por letras latinas maiúsculas: P, Q, R, S, U, V, W. Exemplo: P: Os suíços fabricam os melhores relógios; S: Os franceses fabricam o melhor vinho." },
+  { q: "O que é uma proposição molecular?", a: "É uma proposição composta formada pela combinação de duas ou mais proposições simples por meio de conectivos lógicos." },
+  { q: "O que é um argumento válido?", a: "É um argumento onde as premissas logicamente implicam a conclusão, ou seja, se todas as premissas são verdadeiras, a conclusão também deve ser verdadeira." },
+  { q: "O que é uma sequência de demonstração?", a: "É uma sequência de fórmulas bem-formuladas onde cada fbf é uma hipótese ou o resultado da aplicação de uma regra de dedução a fbf anteriores." },
+  { q: "O que é o cálculo proposicional?", a: "É um sistema formal que fornece mecanismos para validar argumentos utilizando proposições e conectivos lógicos." },
+  { q: "Como funciona a conjunção na prática?", a: "A conjunção (E) é verdadeira apenas quando ambas as proposições são verdadeiras. Exemplo: '2 é um número par E 2 é um número primo' é verdadeiro." },
+  { q: "Como funciona a disjunção na prática?", a: "A disjunção (OU) é verdadeira quando pelo menos uma das proposições é verdadeira. Exemplo: '3 é par OU 3 é ímpar' é verdadeiro." },
+  { q: "Como funciona o condicional na prática?", a: "O condicional (Se... então) é falso apenas quando a premissa é verdadeira e a conclusão é falsa. Exemplo: 'Se 2 é par, então 4 é par' é verdadeiro." },
+  { q: "Como funciona o bicondicional na prática?", a: "O bicondicional (Se, e somente se) é verdadeiro quando ambas as proposições têm o mesmo valor lógico. Exemplo: '2 é par se, e somente se, 4 é par' é verdadeiro." },
+  { q: "O que são regras de equivalência?", a: "São regras que permitem transformar uma fórmula lógica em outra equivalente, mantendo o mesmo valor lógico em todas as interpretações." },
+  { q: "O que são regras de inferência?", a: "São regras que permitem derivar novas conclusões a partir de premissas já estabelecidas, garantindo a validade dos argumentos." },
+  { q: "Qual a diferença entre argumento válido e argumento verdadeiro?", a: "Um argumento pode ter premissas e conclusão verdadeiras mas ser inválido (se a conclusão não segue das premissas). Um argumento válido garante que se as premissas são verdadeiras, a conclusão também é." }
 ];
