@@ -11,3 +11,4 @@ export { arquiteturaComputadores } from './arquitetura-computadores.js';
 export { analiseOo } from './analise-oo.js';
 export { redesComputadores } from './redes-computadores.js';
 export { segurancaAuditoria } from './seguranca-auditoria.js';
+export { pythonIntroducao } from './python-introducao.js';
