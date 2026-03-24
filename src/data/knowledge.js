@@ -90,5 +90,87 @@ export const knowledge = {
       { term: "Firewall", definition: "Uma barreira de segurança que monitora o tráfego de rede e bloqueia o que for suspeito." },
       { term: "Vulnerabilidade", definition: "Uma fraqueza no sistema que pode ser explorada por um invasor." }
     ]
+  },
+  "linguagem-oo": {
+    summary: "Linguagem de programação que utiliza o paradigma de Orientação a Objetos, organizando código em classes e objetos que interagem entre si.",
+    concepts: [
+      { term: "Classe", definition: "Modelo ou molde para criar objetos. Define atributos (características) e métodos (comportamentos) que os objetos terão." },
+      { term: "Objeto", definition: "Instância de uma classe. É uma entidade concreta criada a partir do molde da classe, com valores específicos para seus atributos." },
+      { term: "Herança", definition: "Mecanismo que permite criar uma nova classe baseada em uma classe existente, herdando seus atributos e métodos." },
+      { term: "Polimorfismo", definition: "Capacidade de objetos de diferentes classes responderem de forma diferente à mesma mensagem ou método." },
+      { term: "Encapsulamento", definition: "Ocultação dos detalhes internos de implementação de um objeto, expondo apenas uma interface pública." },
+      { term: "Abstração", definition: "Processo de simplificar sistemas complexos, focando nos aspectos relevantes e ocultando detalhes desnecessários." },
+      { term: "Interface", definition: "Contrato que define quais métodos uma classe deve implementar, sem definir como serão implementados." },
+      { term: "Construtor", definition: "Método especial chamado automaticamente quando um objeto é criado, usado para inicializar seus atributos." },
+      { term: "Destruidor", definition: "Método especial chamado quando um objeto é destruído, usado para liberar recursos alocados." },
+      { term: "Atributo", definition: "Variável que armazena dados dentro de uma classe, representando características do objeto." },
+      { term: "Método", definition: "Função definida dentro de uma classe que descreve comportamentos ou ações que o objeto pode realizar." }
+    ]
+  },
+  "frameworks": {
+    summary: "Conjuntos de ferramentas e bibliotecas pré-construídas que facilitam o desenvolvimento de software, fornecendo uma estrutura base para construir aplicações.",
+    concepts: [
+      { term: "Framework", definition: "Estrutura de código reutilizável que fornece funcionalidades comuns, permitindo que desenvolvedores foquem na lógica específica da aplicação." },
+      { term: "Biblioteca", definition: "Conjunto de funções e classes reutilizáveis que podem ser chamadas pelo código da aplicação quando necessário." },
+      { term: "MVC (Model-View-Controller)", definition: "Padrão arquitetônico que separa a aplicação em três camadas: Model (dados), View (interface) e Controller (lógica de controle)." },
+      { term: "Spring Boot", definition: "Framework Java que simplifica a criação de aplicações standalone, com configuração automática e servidor embutido." },
+      { term: "React", definition: "Biblioteca JavaScript para construção de interfaces de usuário, baseada em componentes reutilizáveis e virtual DOM." },
+      { term: "Angular", definition: "Framework TypeScript para desenvolvimento de aplicações web, com arquitetura baseada em componentes e injeção de dependência." },
+      { term: "Vue.js", definition: "Framework JavaScript progressivo para construção de interfaces de usuário, conhecido por sua simplicidade e flexibilidade." },
+      { term: "Django", definition: "Framework Python para desenvolvimento web, seguindo o padrão MTV (Model-Template-View) com ORM integrado." },
+      { term: "Flask", definition: "Microframework Python para desenvolvimento web, minimalista e flexível, ideal para APIs e aplicações pequenas." },
+      { term: "ORM (Object-Relational Mapping)", definition: "Técnica que mapeia objetos de programação para tabelas de banco de dados, facilitando a manipulação de dados." },
+      { term: "Dependência", definition: "Biblioteca ou framework externo que uma aplicação precisa para funcionar corretamente." }
+    ]
+  },
+  "governanca-ti": {
+    summary: "Conjunto de práticas e processos que garantem que a TI suporte e agregue valor aos objetivos estratégicos da organização.",
+    concepts: [
+      { term: "Governança de TI", definition: "Sistema pelo qual a TI é dirigida, monitorada e controlada, alinhando-a com os objetivos do negócio." },
+      { term: "COBIT", definition: "Framework de governança e gestão de TI desenvolvido pela ISACA, oferecendo boas práticas para gestão de TI." },
+      { term: "ITIL", definition: "Biblioteca de infraestrutura de TI que descreve boas práticas para gerenciamento de serviços de TI." },
+      { term: "ISO 27001", definition: "Padrão internacional para sistemas de gestão de segurança da informação, definindo requisitos para proteção de dados." },
+      { term: "SLA (Service Level Agreement)", definition: "Acordo formal entre prestador de serviço e cliente que define níveis de serviço esperados." },
+      { term: "KPI (Key Performance Indicator)", definition: "Indicador-chave de desempenho usado para medir o sucesso de uma organização ou atividade específica." },
+      { term: "Risco de TI", definition: "Probabilidade de um evento adverso ocorrer que possa impactar negativamente os ativos de informação da organização." },
+      { term: "Compliance", definition: "Conformidade com leis, regulamentos, políticas e padrões aplicáveis às operações da organização." },
+      { term: "Auditoria de TI", definition: "Processo sistemático de avaliação dos controles, processos e governança de TI para garantir conformidade e eficácia." },
+      { term: "Gestão de Ativos", definition: "Processo de rastreamento e gerenciamento de todos os ativos de TI da organização ao longo de seu ciclo de vida." },
+      { term: "Continuidade de Negócios", definition: "Capacidade de uma organização manter operações essenciais durante e após um desastre ou interrupção." }
+    ]
+  },
+  "programacao-web": {
+    summary: "Desenvolvimento de aplicações que funcionam na internet ou intranets, utilizando tecnologias como HTML, CSS e JavaScript para criar interfaces e lógica de negócios.",
+    concepts: [
+      { term: "HTML", definition: "Linguagem de marcação para estruturar conteúdo web, definindo elementos como cabeçalhos, parágrafos, links e imagens." },
+      { term: "CSS", definition: "Linguagem de folhas de estilo para definir a apresentação visual de documentos HTML, incluindo cores, layouts e fontes." },
+      { term: "JavaScript", definition: "Linguagem de programação que adiciona interatividade às páginas web, permitindo manipulação do DOM e comunicação com servidores." },
+      { term: "DOM (Document Object Model)", definition: "Representação em árvore da estrutura de um documento HTML/XML, que pode ser manipulada via JavaScript." },
+      { term: "API (Application Programming Interface)", definition: "Conjunto de definições e protocolos que permite a comunicação entre diferentes sistemas ou componentes de software." },
+      { term: "REST (Representational State Transfer)", definition: "Estilo arquitetônico para sistemas distribuídos, baseado em recursos identificados por URLs e operações HTTP." },
+      { term: "HTTP/HTTPS", definition: "Protocolo de comunicação web (HyperText Transfer Protocol), com 'S' indicando versão segura com criptografia." },
+      { term: "Frontend", definition: "Parte da aplicação que interage diretamente com o usuário, incluindo interface visual e lógica de apresentação." },
+      { term: "Backend", definition: "Parte da aplicação que processa dados, gerencia banco de dados e executa lógica de negócios no servidor." },
+      { term: "Responsividade", definition: "Capacidade de uma página web se adaptar automaticamente a diferentes tamanhos de tela e dispositivos." },
+      { term: "SPA (Single Page Application)", definition: "Aplicação web que carrega uma única página HTML e atualiza dinamicamente o conteúdo conforme o usuário interage." },
+      { term: "WebSocket", definition: "Protocolo de comunicação bidirecional que permite conexão persistente entre cliente e servidor para tempo real." }
+    ]
+  },
+  "arquitetura-computadores": {
+    summary: "Estudo da estrutura e organização dos componentes de um computador, incluindo processador, memória, entrada/saída e barramentos.",
+    concepts: [
+      { term: "CPU (Central Processing Unit)", definition: "Unidade central de processamento, o 'cérebro' do computador que executa instruções e processa dados." },
+      { term: "ALU (Arithmetic Logic Unit)", definition: "Unidade lógica aritmética que realiza operações matemáticas e lógicas dentro da CPU." },
+      { term: "Registrador", definition: "Pequena memória de alta velocidade dentro da CPU usada para armazenar dados temporários durante o processamento." },
+      { term: "Barramento", definition: "Sistema de comunicação que transfere dados entre componentes do computador (CPU, memória, dispositivos)." },
+      { term: "Memória RAM", definition: "Memória de acesso aleatório volátil, usada para armazenar dados e programas em uso pelo processador." },
+      { term: "Memória ROM", definition: "Memória de leitura apenas não-volátil, contendo instruções essenciais para inicialização do sistema." },
+      { term: "Cache", definition: "Memória de alta velocidade que armazena dados frequentemente acessados para reduzir tempo de acesso." },
+      { term: "Pipeline", definition: "Técnica que permite executar múltiplas instruções simultaneamente em diferentes estágios de processamento." },
+      { term: "Interrupção", definition: "Sinal que pausa a execução normal da CPU para tratar eventos externos ou internos prioritários." },
+      { term: "DMA (Direct Memory Access)", definition: "Mecanismo que permite dispositivos de E/S acessar memória diretamente, sem intervenção da CPU." },
+      { term: "ISA (Instruction Set Architecture)", definition: "Conjunto de instruções que uma CPU pode executar, definindo a interface entre hardware e software." },
+      { term: "Ciclo de Instrução", definition: "Processo de buscar, decodificar, executar e armazenar resultados de uma instrução pelo processador." }
+    ]
   }
 };
