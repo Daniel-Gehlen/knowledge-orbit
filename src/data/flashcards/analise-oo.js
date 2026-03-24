@@ -1,5 +1,55 @@
 export const analiseOo = [
-  { q: "O que é um Diagrama de Classe?", a: "Mostra a estrutura do sistema, os tipos de objetos e como eles se relacionam." },
-  { q: "O que é UML?", a: "Linguagem de Modelagem Unificada, um padrão visual para documentar sistemas." },
-  { q: "O que é um Caso de Uso?", a: "Descrição de como um usuário interage com o sistema para atingir um objetivo." }
+  // Ta1 — Fundamentos da UML
+  { q: "O que é UML?", a: "Unified Modeling Language — Linguagem de Modelagem Unificada, um padrão visual universal para documentar sistemas de software antes de codificar." },
+  { q: "Quais são os pilares do paradigma orientado a objetos?", a: "Herança, Polimorfismo, Encapsulamento, Agregação e Composição. Linguagens como Java, C++, C# e PHP seguem esse paradigma." },
+  { q: "O que é uma Classe em OO?", a: "Um 'molde' que define atributos (dados) e métodos (ações) que seus objetos terão. É como a planta de uma casa." },
+  { q: "O que é um Objeto?", a: "Uma instância concreta de uma classe — uma manifestação real do molde, com valores específicos nos atributos." },
+  { q: "O que é Herança?", a: "Mecanismo onde uma classe herda atributos e métodos de outra, evitando duplicação de código. Exemplo: ContaPoupança herda de ContaBancária." },
+  { q: "O que é Polimorfismo?", a: "Capacidade de métodos com a mesma assinatura terem comportamentos distintos em classes diferentes." },
+  { q: "O que é Encapsulamento?", a: "Proibição do acesso direto ao estado do objeto. Visibilidade: + (public), - (private), # (protected)." },
+  { q: "Quais são os três níveis de abstração dos diagramas UML?", a: "ALTO (conceitos para decisão do cliente), MÉDIO (guia o desenvolvimento) e BAIXO (especificação completa para implementação)." },
+  { q: "Qual a diferença entre diagramas estruturais e comportamentais?", a: "Estruturais mostram a organização estática (classes, pacotes, componentes). Comportamentais mostram a dinâmica ao longo do tempo (casos de uso, sequência, estados)." },
+  { q: "O que é o Processo Unificado (PU/RUP)?", a: "Metodologia iterativa e incremental de desenvolvimento, dirigida por casos de uso, focada na arquitetura e orientada a riscos. Tem 4 fases: Concepção, Elaboração, Construção e Transição." },
+  { q: "O que acontece na Fase de Concepção do PU?", a: "Define a ideia inicial, delimita o escopo e identifica os principais casos de uso. Usa diagramas de Caso de Uso, Sequência, Atividades e Máquina de Estados." },
+  { q: "O que acontece na Fase de Elaboração do PU?", a: "Evolui os diagramas, detalha as classes e refina a arquitetura do sistema." },
+  { q: "O que acontece na Fase de Construção do PU?", a: "Foca na implementação do código e usa diagramas de Implantação." },
+  { q: "O que acontece na Fase de Transição do PU?", a: "Entrega do sistema ao usuário final com testes, correções e ajustes de implantação." },
+  { q: "Quais são os 4 mecanismos comuns da UML?", a: "Especificação (descrição exata), Adorno (notação gráfica), Divisões Comuns (classe vs objeto, interface vs implementação) e Mecanismos de Extensão (estereótipos, restrições, valores predefinidos)." },
+  { q: "O que são Estereótipos na UML?", a: "Mecanismos de extensão que permitem criar novos tipos de elementos a partir de existentes. Exemplo: transformar uma classe em <<boundary>> para indicar interface do sistema." },
+  { q: "Cite 3 regras de consistência entre diagramas UML.", a: "1) Nº de objetos no diagrama de sequência = nº de classes. 2) Nomes de métodos iguais entre classe e sequência. 3) Cada caso de uso deve ter ao menos um diagrama de sequência." },
+
+  // Ta2 — Casos de Uso, Classes e Atividades
+  { q: "O que é um Diagrama de Casos de Uso?", a: "Mostra como atores (usuários/sistemas externos) interagem com o sistema para atingir objetivos. Cada caso de uso é uma funcionalidade do ponto de vista do usuário." },
+  { q: "O que é um Ator no diagrama de casos de uso?", a: "Qualquer entidade externa (pessoa, sistema, dispositivo) que interage com o sistema. Representado por um boneco palito." },
+  { q: "O que é Multiplicidade em diagramas?", a: "Define quantas instâncias participam de um relacionamento. Notações: n..m, n..*, 1, 1..* (uma ou mais)." },
+  { q: "O que é o Diagrama de Classes?", a: "O diagrama mais importante da UML — mostra classes, atributos, métodos e relacionamentos (associação, herança, agregação, composição). É a 'espinha dorsal' do projeto OO." },
+  { q: "O que é uma Classe Abstrata?", a: "Classe que não pode ser instanciada diretamente — serve como modelo. Em UML, o nome aparece em itálico." },
+  { q: "O que é uma Interface em UML?", a: "Contrato que define quais métodos uma classe deve implementar, sem definir como. Usa o estereótipo <<interface>>." },
+  { q: "Qual a diferença entre Agregação e Composição?", a: "Agregação (losango vazio): partes existem sem o todo. Composição (losango preenchido): partes não existem sem o todo. Exemplo: se um Pedido for excluído, seus Itens também são (composição)." },
+  { q: "Quais são os 3 estereótipos de classes?", a: "<<boundary>> = interface do sistema (tela). <<control>> = lógica intermediária. <<entity>> = classe de dados/entidade." },
+  { q: "O que é o Diagrama de Atividades?", a: "Mostra o fluxo de trabalho passo a passo, como um fluxograma avançado com Fork (paralelo), Join (reunião) e Swimlanes (raias de responsabilidade)." },
+  { q: "O que é Fork e Join no diagrama de atividades?", a: "Fork divide o fluxo em ações paralelas. Join reúne ações paralelas de volta. Exemplo: 'verificar estoque' e 'validar pagamento' podem ocorrer ao mesmo tempo (fork)." },
+  { q: "O que são Swimlanes (Raias)?", a: "Divisões verticais no diagrama de atividades que indicam qual ator/componente é responsável por cada ação." },
+
+  // Ta3 — Máquina de Estados, Sequência e Comunicação
+  { q: "O que é o Diagrama de Máquina de Estados?", a: "Mostra os estados que um objeto pode assumir e as transições entre eles, disparadas por eventos. Exemplo: Conta → Ativa, Bloqueada, Encerrada." },
+  { q: "O que são Estado, Transição e Evento?", a: "Estado = situação atual do objeto. Transição = mudança entre estados (seta). Evento = gatilho que causa a transição." },
+  { q: "O que significam Do, Entry e Exit em máquina de estados?", a: "Do: atividade durante o estado. Entry: ações ao entrar no estado. Exit: ações ao sair do estado." },
+  { q: "Como construir um diagrama de máquina de estados?", a: "1) Identificar estados relevantes. 2) Identificar eventos e transições. 3) Verificar fatores que influenciam eventos. 4) Definir estado inicial e finais." },
+  { q: "O que é o Diagrama de Sequência?", a: "Mostra a troca de mensagens entre objetos ao longo do tempo. Cada objeto tem uma lifeline (linha de vida) vertical, e as mensagens são setas horizontais." },
+  { q: "O que é uma Lifeline?", a: "Linha vertical tracejada que representa a existência de um objeto ao longo do tempo no diagrama de sequência." },
+  { q: "Quais são os Fragmentos de Interação?", a: "ref (interação reutilizável), alt (alternativas/if-else), opt (se...então), loop (repetição). Modelam lógica condicional no diagrama de sequência." },
+  { q: "O que é o Diagrama de Comunicação?", a: "Similar ao de sequência, mas foca nos vínculos (links) entre objetos. Mostra quais objetos se comunicam com numeração indicando a sequência." },
+
+  // Ta4 — Modelagem Completa
+  { q: "O que são Requisitos Funcionais (RF)?", a: "Descrevem o que o sistema deve fazer — as funcionalidades. Exemplo: 'O sistema deve cadastrar clientes'. São modelados como Casos de Uso." },
+  { q: "O que são Requisitos Não Funcionais (RNF)?", a: "Descrevem como o sistema deve ser — qualidades e restrições. Exemplo: 'Deve responder em menos de 2 segundos'. São critérios de qualidade, não funcionalidades." },
+  { q: "O que é o Diagrama de Pacotes?", a: "Agrupa elementos do sistema em pacotes lógicos ou físicos, organizando classes semanticamente relacionadas — como pastas de um sistema de arquivos." },
+  { q: "O que é o Diagrama de Componentes?", a: "Mostra os componentes de software e suas dependências. Cada componente é um módulo independente e substituível." },
+  { q: "O que é o Diagrama de Estrutura Composta?", a: "Mostra a arquitetura interna de um componente — como elementos interagem dentro dele durante a execução." },
+  { q: "O que é o Diagrama de Implantação?", a: "Mostra a distribuição física do sistema — em quais servidores, dispositivos ou ambientes o software será executado." },
+  { q: "O que é o Diagrama de Objetos?", a: "Mostra instâncias concretas das classes em um momento específico, com valores reais nos atributos — um 'retrato' do sistema em execução." },
+  { q: "O que é a Transição da Análise para o Projeto?", a: "Quando diagramas de alto nível (análise) são refinados em diagramas detalhados (projeto) com especificações técnicas completas para guiar o código." },
+  { q: "Por que a modelagem é importante?", a: "Restringe o foco a um aspecto por vez, explora soluções antes de codificar e é essencial para sistemas complexos. Surgiu em resposta à crise de software." },
+  { q: "O que é Associação no diagrama de classes?", a: "Relacionamento básico entre classes — indica que objetos de uma classe se conectam a objetos de outra. Exemplo: Cliente está associado a Conta." }
 ];
