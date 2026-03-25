@@ -25,7 +25,8 @@ import {
   tabelaVerdade,
   sistemaUnix,
   linguagemOoCompleto,
-  modelagemDados
+  modelagemDados,
+  sistemasOperacionais
 } from './flashcards/index.js';
 
 export const flashcards = {
@@ -52,5 +53,6 @@ export const flashcards = {
   "tabela-verdade": tabelaVerdade,
   "sistema-unix": sistemaUnix,
   "linguagem-oo-completo": linguagemOoCompleto,
-  "modelagem-dados": modelagemDados
+  "modelagem-dados": modelagemDados,
+  "sistemas-operacionais": sistemasOperacionais
 };
