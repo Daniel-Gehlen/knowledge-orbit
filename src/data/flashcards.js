@@ -23,7 +23,8 @@ import {
   algebraConjuntos,
   logicaProposicional,
   tabelaVerdade,
-  sistemaUnix
+  sistemaUnix,
+  linguagemOoCompleto
 } from './flashcards/index.js';
 
 export const flashcards = {
@@ -48,5 +49,6 @@ export const flashcards = {
   "algebra-conjuntos": algebraConjuntos,
   "logica-proposicional": logicaProposicional,
   "tabela-verdade": tabelaVerdade,
-  "sistema-unix": sistemaUnix
+  "sistema-unix": sistemaUnix,
+  "linguagem-oo-completo": linguagemOoCompleto
 };
