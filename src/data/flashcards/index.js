@@ -23,3 +23,4 @@ export { tabelaVerdade } from './tabela-verdade.js';
 export { sistemaUnix } from './sistema-unix.js';
 export { linguagemOoCompleto } from './linguagem-oo-completo.js';
 export { modelagemDados } from './modelagem-dados.js';
+export { sistemasOperacionais } from './sistemas-operacionais.js';
