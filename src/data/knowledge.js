@@ -458,5 +458,39 @@ export const knowledge = {
       { term: "cron", definition: "Agendador de tarefas que executa comandos em horários programados. crontab -e edita a tabela. Formato: minuto hora dia mês dia_semana comando." },
       { term: "Regular Expressions (Regex)", definition: "Padrões para buscar e manipular texto. . (qualquer char), * (zero ou mais), + (uma ou mais), [] (classe), ^ (início), $ (fim). Usadas por grep, sed, awk." }
     ]
+  },
+  "modelagem-dados": {
+    summary: "Modelagem de Dados é o processo de detalhar e organizar informações que serão armazenadas em um banco de dados. Envolve três níveis: Conceitual (o que será armazenado), Lógico (como será organizado em tabelas) e Físico (como será implementado no SGBD). Utiliza técnicas como Diagrama Entidade-Relacionamento (DER), UML e Normalização para criar bancos de dados eficientes, seguros e livres de redundâncias.",
+    concepts: [
+      { term: "Banco de Dados", definition: "Coleção inter-relacionada de arquivos com dados duráveis e acessíveis a vários softwares. Cada processo da organização tem dados específicos e pode conter dados comuns entre outros processos." },
+      { term: "SGBD (Sistema Gerenciador de Banco de Dados)", definition: "Software para gerenciar as informações de um banco de dados. Suas funções incluem organizar, acessar, controlar, manter, compartilhar e proteger as informações." },
+      { term: "Modelagem de Dados", definition: "Detalhamento dos tipos de informações que serão guardadas em um banco de dados. É um processo progressivo que parte de uma compreensão simples do problema e amplia o nível de detalhes conforme maior entendimento." },
+      { term: "Fases da Modelagem", definition: "Análise de Requisito → Modelo Conceitual → Modelo Lógico → Modelo Físico. Segue sequência lógica pautada em organização e técnicas." },
+      { term: "Modelo Conceitual", definition: "Descrição concisa das informações que o software deverá possuir, de acordo com seus requisitos. Representa o que precisa ser realizado e não como deverá ser realizado. Possui visão de nível macro e independência de hardware/software." },
+      { term: "Modelo Lógico", definition: "Aplica o conceito de modelos de entidade e relacionamentos com foco na criação do banco de dados. Entidades são transformadas em tabelas, relacionamentos são reproduzidos ou criados, e tipos de dados são definidos." },
+      { term: "Modelo Físico", definition: "Definição das estruturas de armazenamento no BD, as chaves (ou índices) e os relacionamentos. Utiliza comandos com sintaxes específicas executados diretamente no SGBD (Create Table)." },
+      { term: "Entidade", definition: "Contém atributos próprios. Pode ser física (Carro, Pessoa) ou objeto conceitual (Projeto, Departamento). No MER, são transformadas em tabelas no modelo relacional." },
+      { term: "Atributo", definition: "Campo da Entidade ou do Relacionamento. Possui tipos respectivos como caractere, numérico, data e outros." },
+      { term: "Relacionamento", definition: "Relação determinada pela regra de negócio entre entidades. No MER, são reproduzidos ou criados no modelo lógico." },
+      { term: "Dicionário de Dados", definition: "Documento que contém descrição (nome, tabela, atributo e relações), tipos de dados (domínio) e tamanhos, chaves, usuários e permissões, e cardinalidade das relações entre tabelas." },
+      { term: "Atividades da Modelagem", definition: "Concepção (objetivos e soluções desejados) → Elicitação (definição de dados e informações) → Elaboração (modelar dados - entidades e relações) → Negociação (complementar o modelo de dados)." },
+      { term: "Cardinalidade", definition: "Valor específico ao relacionamento expressando a faixa de ocorrências permitidas (mínima e máxima) entre as tabelas. Graus: 1-1 (um para um), 1-N (um para muitos), N-1 (muitos para um), N-N (muitos para muitos)." },
+      { term: "Tipos de Entidades", definition: "Entidades Fortes, Entidades Fracas ou Dependentes, Entidades Agregadas, Entidades Subordinadas e Entidades Associativas." },
+      { term: "POO (Programação Orientada a Objetos)", definition: "Paradigma amplamente utilizado e adotado por linguagens como Java, C# e Python. Classe é um tipo de dado formada por dados (atributos) e comportamentos (métodos)." },
+      { term: "UML (Linguagem de Modelagem Unificada)", definition: "Diagramas de Atividades e Caso de Uso refletem comportamento e fluxo de tarefas. Diagrama de Classes especifica relacionamento entre classes, atributos e métodos." },
+      { term: "Herança no MER", definition: "Generalização e especialização são relacionamentos entre entidades onde uma entidade superior contém um ou mais conjuntos de entidades inferiores (ex: Médico → Cardiologista, Anestesista)." },
+      { term: "Restrições de Herança", definition: "Restrição de Disjunção (d): entidade pertence a no máximo um subconjunto. Restrição de Sobreposição (o): entidade pode pertencer a mais de um subconjunto. Parcial (p): nem toda ocorrência tem correspondente. Total (t): toda ocorrência tem correspondente." },
+      { term: "Ferramentas CASEs", definition: "Computer Aided Software Engineering - auxiliam no processo de desenvolvimento e manutenção. Incluem Lower CASE (projeto) e Upper CASE (análise). Exemplos: brModelo, Lucidchart, Draw.IO, Astah, MySQL Workbench." },
+      { term: "Normalização", definition: "Processo de modelagem que visa refinamento e evita redundância máxima. Técnica para avaliar e corrigir estruturas e tabelas tornando mínimas as redundâncias de dados." },
+      { term: "Dependência Funcional", definition: "Restrição entre dois ou mais conjuntos de atributos de uma mesma tabela. Dado X e Y, Y é dependente funcional de X se X determina Y. Representação: X → Y." },
+      { term: "1FN (Primeira Forma Normal)", definition: "Uma tabela está na 1FN se todos os seus atributos forem atômicos, não possuindo grupos repetitivos ou colunas com mais de um valor." },
+      { term: "2FN (Segunda Forma Normal)", definition: "Uma tabela está na 2FN se estiver na 1FN e todas as suas colunas que não são chaves dependam exclusivamente da chave primária (de toda a chave primária e não só de parte dela)." },
+      { term: "3FN (Terceira Forma Normal)", definition: "Uma tabela está na 3FN se estiver na 2FN e não conter dependências funcionais dos seus atributos não chave com outros atributos não chave. Atributos calculados são eliminados." },
+      { term: "4FN (Quarta Forma Normal)", definition: "Uma tabela está na 4FN se estiver na 3FN e não existir dependência multivalorada. Todo campo precisa ser atômico. Transformação: identificar campos multivalorados, criar tabela para cada grupo, criar chave primária e inserir chave estrangeira." },
+      { term: "Propriedades ACID", definition: "Atomicidade (nenhuma ou totalidade das operações são realizadas), Consistência (preserva regras do BD), Isolamento (transação não interfere em outra) e Durabilidade (armazenamento confiável e seguro)." },
+      { term: "Data Warehouse", definition: "Arquivo ou repositório de informações estruturadas de várias origens (bancos de dados). Origem de dados interna e externa, armazenados em único local com esquema unificado. Permite consultas para apoio à decisão." },
+      { term: "Data Mining", definition: "Mineração de informações conhecidas e descoberta de novas regras ou padrões. Análise de informações semiautomática para obter respostas a perguntas estratégicas." },
+      { term: "OLTP vs OLAP", definition: "OLTP: operações de rotina, baixo desempenho em consultas, sem histórico, estruturas convencionais, dados voláteis. OLAP: operações analíticas, alto desempenho em consultas, possibilita histórico, armazenamento em Data Warehouse, dados históricos e não voláteis." }
+    ]
   }
 };

@@ -24,7 +24,8 @@ import {
   logicaProposicional,
   tabelaVerdade,
   sistemaUnix,
-  linguagemOoCompleto
+  linguagemOoCompleto,
+  modelagemDados
 } from './flashcards/index.js';
 
 export const flashcards = {
@@ -50,5 +51,6 @@ export const flashcards = {
   "logica-proposicional": logicaProposicional,
   "tabela-verdade": tabelaVerdade,
   "sistema-unix": sistemaUnix,
-  "linguagem-oo-completo": linguagemOoCompleto
+  "linguagem-oo-completo": linguagemOoCompleto,
+  "modelagem-dados": modelagemDados
 };

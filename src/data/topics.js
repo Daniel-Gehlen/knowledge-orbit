@@ -9,6 +9,7 @@ export const topics = [
   { id: "python-pandas", title: "Python - Biblioteca Pandas", module: "2º Conhecimento" },
   { id: "analise-oo", title: "Análise Orientada a Objetos", module: "2º Conhecimento" },
   { id: "linguagem-oo", title: "Linguagem Orientada a Objetos", module: "2º Conhecimento" },
+  { id: "modelagem-dados", title: "Modelagem de Dados", module: "2º Conhecimento" },
   { id: "frameworks", title: "Frameworks para Desenvolvimento", module: "3º Conhecimento" },
   { id: "governanca-ti", title: "Governança de Tecnologia da Informação", module: "4º Conhecimento" },
   { id: "programacao-web", title: "Programação Web", module: "4º Conhecimento" },
