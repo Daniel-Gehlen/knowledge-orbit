@@ -93,7 +93,7 @@ window.addEventListener('open-practice', (e) => {
       <h2 style="margin-bottom: 2rem;">Praticar: ${topics.find(t => t.id === topicId).title}</h2>
 
       <div id="flashcard" style="background: var(--bg-secondary); border: 2px solid var(--accent); padding: 3rem; border-radius: 1rem; text-align: center; cursor: pointer; min-height: 200px; display: flex; align-items: center; justify-content: center; font-size: 1.25rem; transition: transform 0.3s;">
-        <p id="card-text">${cards[index].q}</p>
+        <p id="card-text">${cards[index].question}</p>
       </div>
 
       <div style="margin-top: 2rem; display: flex; justify-content: space-between;">
@@ -109,7 +109,7 @@ window.addEventListener('open-practice', (e) => {
 
     cardEl.onclick = () => {
       showingAnswer = !showingAnswer;
-      textEl.textContent = showingAnswer ? cards[index].a : cards[index].q;
+      textEl.textContent = showingAnswer ? cards[index].answer : cards[index].question;
       textEl.style.color = showingAnswer ? 'var(--accent)' : 'white';
       cardEl.style.transform = 'scale(1.02)';
       setTimeout(() => cardEl.style.transform = 'scale(1)', 200);
