@@ -14,6 +14,7 @@ import {
   analiseOo,
   redesComputadores,
   segurancaAuditoria,
+  segurancaAuditoriaCompleto,
   pythonIntroducao,
   pythonEstruturasDados,
   pythonOrientacaoObjetos,
@@ -30,8 +31,7 @@ import {
   sistemasNumericos,
   fundamentosSistemasComputacionais,
   componentesBasicosComputador,
-  algebraBooleanaLogicaDigital,
-  redesComputadores
+  algebraBooleanaLogicaDigital
 } from './flashcards/index.js';
 
 export const flashcards = {
@@ -64,5 +64,5 @@ export const flashcards = {
   "fundamentos-sistemas-computacionais": fundamentosSistemasComputacionais,
   "componentes-basicos-computador": componentesBasicosComputador,
   "algebra-booleana-logica-digital": algebraBooleanaLogicaDigital,
-  "redes-computadores": redesComputadores
+  "seguranca-auditoria-completo": segurancaAuditoriaCompleto
 };
