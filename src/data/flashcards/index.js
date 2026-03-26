@@ -24,3 +24,7 @@ export { sistemaUnix } from './sistema-unix.js';
 export { linguagemOoCompleto } from './linguagem-oo-completo.js';
 export { modelagemDados } from './modelagem-dados.js';
 export { sistemasOperacionais } from './sistemas-operacionais.js';
+export { sistemasNumericos } from './sistemas-numericos.js';
+export { fundamentosSistemasComputacionais } from './fundamentos-sistemas-computacionais.js';
+export { componentesBasicosComputador } from './componentes-basicos-computador.js';
+export { algebraBooleanaLogicaDigital } from './algebra-booleana-logica-digital.js';
