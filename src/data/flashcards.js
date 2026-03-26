@@ -14,6 +14,7 @@ import {
   analiseOo,
   redesComputadores,
   segurancaAuditoria,
+  segurancaAuditoriaCompleto,
   pythonIntroducao,
   pythonEstruturasDados,
   pythonOrientacaoObjetos,
@@ -54,5 +55,6 @@ export const flashcards = {
   "sistema-unix": sistemaUnix,
   "linguagem-oo-completo": linguagemOoCompleto,
   "modelagem-dados": modelagemDados,
-  "sistemas-operacionais": sistemasOperacionais
+  "sistemas-operacionais": sistemasOperacionais,
+  "seguranca-auditoria-completo": segurancaAuditoriaCompleto
 };
