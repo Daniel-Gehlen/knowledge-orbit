@@ -26,7 +26,11 @@ import {
   sistemaUnix,
   linguagemOoCompleto,
   modelagemDados,
-  sistemasOperacionais
+  sistemasOperacionais,
+  sistemasNumericos,
+  fundamentosSistemasComputacionais,
+  componentesBasicosComputador,
+  algebraBooleanaLogicaDigital
 } from './flashcards/index.js';
 
 export const flashcards = {
@@ -54,5 +58,9 @@ export const flashcards = {
   "sistema-unix": sistemaUnix,
   "linguagem-oo-completo": linguagemOoCompleto,
   "modelagem-dados": modelagemDados,
-  "sistemas-operacionais": sistemasOperacionais
+  "sistemas-operacionais": sistemasOperacionais,
+  "sistemas-numericos": sistemasNumericos,
+  "fundamentos-sistemas-computacionais": fundamentosSistemasComputacionais,
+  "componentes-basicos-computador": componentesBasicosComputador,
+  "algebra-booleana-logica-digital": algebraBooleanaLogicaDigital
 };
