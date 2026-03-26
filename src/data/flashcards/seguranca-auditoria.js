@@ -3,119 +3,119 @@
 // Reescrito de forma resumida e acessível
 
 export const segurancaAuditoria = [
-  // ==================== CW1 - INTRODUÇÃO À SEGURANÇA DA INFORMAÇÃO ====================
+  // ==================== TA1 - INTRODUÇÃO À SEGURANÇA DA INFORMAÇÃO ====================
   {
-    id: "sa-cw1-1",
+    id: "sa-ta1-1",
     question: "O que é segurança da informação?",
     answer: "É a proteção da informação contra ameaças para garantir a continuidade dos negócios, minimizando danos e maximizando retorno dos investimentos. Envolve identificação, proteção, detecção, resposta e recuperação."
   },
   {
-    id: "sa-cw1-2",
+    id: "sa-ta1-2",
     question: "Quais são os princípios da segurança da informação (CID)?",
     answer: "Confidencialidade (acesso apenas a autorizados), Integridade (exatidão e completeza dos dados) e Disponibilidade (acesso quando necessário). Complementados por Autenticidade, Não-Repúdio e Legalidade."
   },
   {
-    id: "sa-cw1-3",
+    id: "sa-ta1-3",
     question: "O que é Confidencialidade?",
     answer: "Propriedade de que a informação não esteja disponível ou seja revelada a indivíduos, entidades ou processos não autorizados."
   },
   {
-    id: "sa-cw1-4",
+    id: "sa-ta1-4",
     question: "O que é Integridade?",
     answer: "Propriedade de salvaguarda da exatidão e completeza dos ativos."
   },
   {
-    id: "sa-cw1-5",
+    id: "sa-ta1-5",
     question: "O que é Disponibilidade?",
     answer: "Está relacionada ao tempo e à acessibilidade que se tem dos dados e sistemas da organização."
   },
   {
-    id: "sa-cw1-6",
+    id: "sa-ta1-6",
     question: "O que é Autenticidade?",
     answer: "Busca garantir que determinada pessoa ou sistema é, de fato, quem ela diz ser."
   },
   {
-    id: "sa-cw1-7",
+    id: "sa-ta1-7",
     question: "O que é Não-Repúdio (Irretratabilidade)?",
     answer: "Busca garantir que o usuário não tenha condições de negar ou contrariar o fato de que foi ele quem gerou determinado conteúdo ou informação."
   },
   {
-    id: "sa-cw1-8",
+    id: "sa-ta1-8",
     question: "O que é um Ativo em segurança da informação?",
     answer: "Qualquer elemento que tenha valor para uma organização: informação, equipamentos ou pessoas."
   },
   {
-    id: "sa-cw1-9",
+    id: "sa-ta1-9",
     question: "O que é Agente de Ameaça?",
     answer: "Aquele que explora intencionalmente uma vulnerabilidade por meio de algum método ou técnica de ataque."
   },
   {
-    id: "sa-cw1-10",
+    id: "sa-ta1-10",
     question: "O que é Vulnerabilidade?",
     answer: "Ponto fraco que, uma vez explorado, resulta em incidente de segurança. Inclui fraquezas de um ativo que podem ser exploradas por uma ameaça."
   },
   {
-    id: "sa-cw1-11",
+    id: "sa-ta1-11",
     question: "O que são Controles de segurança?",
     answer: "Englobam mecanismos de defesa e uso de medidas e técnicas de segurança. Podem ser físicos, tecnológicos ou processuais, aplicados nos ativos para remover vulnerabilidades."
   },
   {
-    id: "sa-cw1-12",
+    id: "sa-ta1-12",
     question: "O que é Risco em segurança da informação?",
     answer: "Probabilidade de um agente de ameaça explorar vulnerabilidades de ativos utilizando técnicas de ataque, causando impactos à empresa."
   },
   {
-    id: "sa-cw1-13",
+    id: "sa-ta1-13",
     question: "Quais são os elementos a serem protegidos?",
     answer: "Pessoas (vulneráveis a engenharia social), Ativos (físicos e tecnológicos) e Informação (principal elemento, que trafega por diversos canais)."
   },
   {
-    id: "sa-cw1-14",
+    id: "sa-ta1-14",
     question: "O que é Gestão de Riscos da Segurança da Informação?",
     answer: "Processo contínuo que envolve avaliação de riscos, identificação de ativos, vulnerabilidades, ameaças e agentes de ameaças. Risco = Probabilidade x Impacto."
   },
   {
-    id: "sa-cw1-15",
+    id: "sa-ta1-15",
     question: "Quais são as formas de tratamento de riscos?",
     answer: "Mitigação/Redução (aplicar controles), Aceitação (monitorar risco baixo), Eliminação (inutilizar ativo) e Transferência (seguros, terceiros)."
   },
   {
-    id: "sa-cw1-16",
+    id: "sa-ta1-16",
     question: "Quais são os tipos de Controles de Segurança?",
     answer: "Físicos (câmeras, guardas), Tecnológicos (firewall, criptografia), Processuais (políticas de senhas) e Regulatórios (LGPD)."
   },
   {
-    id: "sa-cw1-17",
+    id: "sa-ta1-17",
     question: "O que são Vulnerabilidades de Rede?",
     answer: "Fraquezas em hardware, software, protocolos e aplicações que podem ser exploradas por indivíduos mal-intencionados para comprometer a segurança."
   },
   {
-    id: "sa-cw1-18",
+    id: "sa-ta1-18",
     question: "Quais são os tipos de Ameaças e Ataques à Rede?",
     answer: "Hackers, Malware (vírus, Trojan, ransomware), DoS/DDoS, Força Bruta, Man-in-the-Middle (MitM), Phishing, Spoofing."
   },
   {
-    id: "sa-cw1-19",
+    id: "sa-ta1-19",
     question: "O que é Criptografia?",
     answer: "Ciência que permite criptografar e descriptografar dados usando matemática. Protege confidencialidade, integridade e autenticação das informações."
   },
   {
-    id: "sa-cw1-20",
+    id: "sa-ta1-20",
     question: "Quais são os tipos de Criptografia?",
     answer: "Simétrica (mesma chave para criptografar/descriptografar), Assimétrica (chave pública/privada), Hashing (resumo fixo), Curva Elíptica, Quântica, Homomórfica."
   },
   {
-    id: "sa-cw1-21",
+    id: "sa-ta1-21",
     question: "O que é criptografia Simétrica?",
     answer: "Mesma chave é usada para criptografar e descriptografar. Algoritmos: AES, DES, 3DES, IDEA. Eficiente e rápida."
   },
   {
-    id: "sa-cw1-22",
+    id: "sa-ta1-22",
     question: "O que é criptografia Assimétrica?",
     answer: "Usa par de chaves: pública (criptografar) e privada (descriptografar). Algoritmos: RSA, DSA, ECC. Permite comunicação segura sem compartilhar chave."
   },
   {
-    id: "sa-cw1-23",
+    id: "sa-ta1-23",
     question: "O que são protocolos de proteção de dados em trânsito?",
     answer: "HTTPS, TLS e SSL protegem informações transmitidas pela rede, garantindo segurança das transações online."
   },
