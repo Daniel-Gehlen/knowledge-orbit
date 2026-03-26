@@ -30,7 +30,8 @@ import {
   sistemasNumericos,
   fundamentosSistemasComputacionais,
   componentesBasicosComputador,
-  algebraBooleanaLogicaDigital
+  algebraBooleanaLogicaDigital,
+  redesComputadores
 } from './flashcards/index.js';
 
 export const flashcards = {
@@ -62,5 +63,6 @@ export const flashcards = {
   "sistemas-numericos": sistemasNumericos,
   "fundamentos-sistemas-computacionais": fundamentosSistemasComputacionais,
   "componentes-basicos-computador": componentesBasicosComputador,
-  "algebra-booleana-logica-digital": algebraBooleanaLogicaDigital
+  "algebra-booleana-logica-digital": algebraBooleanaLogicaDigital,
+  "redes-computadores": redesComputadores
 };
